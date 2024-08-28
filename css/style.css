@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    width: 1440px;
+    padding: 50px;
+    margin: 50px;
+    padding-left: 100px;
+    justify-content: center;
+
+}
+.container{
+    width: 700px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    box-shadow:0px 3px 15px rgba(113, 115, 119, 0.5);
+    border-radius: 15px;
+    margin-left: 200px;
+}
+.main{
+    width: 350px;
+    padding: 40px;
+    background: linear-gradient( hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    opacity: 0.9;
+    display: grid;
+    justify-items: center;
+    border-radius: 15px;
+}
+.circle{
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 100%;
+    width: 155px;
+    height: 155px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.main1{
+    width: 350px;
+    padding: 40px;
+    background-color: hsl(0, 0%, 100%);
+    display: grid;
+    line-height: 2;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+h1{
+    font-size: 76px;
+    color: hsl(0, 0%, 100%);
+    font-family: "Hanken Grotesk", sans-serif;
+}
+.main .circle p{
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    padding-left: 16px;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+p{
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-family: "Hanken Grotesk", sans-serif;
+   
+    
+}
+h2{
+    color: hsl(0, 0%, 100%);
+    font-size: 25px; 
+    padding-bottom: 20px;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+.container1{
+    padding: 5px;
+    display: grid;
+    justify-items: center;
+}
+.container1 p{
+    margin: 0;
+}
+.item span2{
+    color: hsl(225, 59%, 86%);
+    font-family: "Hanken Grotesk", sans-serif;
+    padding-right: 10px;
+}
+.main1 p{
+    color: hsl(224, 30%, 27%);
+    font-family: "Hanken Grotesk", sans-serif;
+}
+.main1 span1{
+    color: hsl(224, 30%, 27%);
+    font-family: "Hanken Grotesk", sans-serif;
+    margin-right: 5px;
+}
+.main1 side{
+    display: flex;
+}
+.section1{
+    background-color: hsl(0, 65%, 91%);
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.section2{
+    background-color: hsl(49, 75%, 89%);
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.section3{
+    background-color: hsl(143, 55%, 90%);
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.section4{
+    background-color: hsl(225, 22%, 96%);
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.item span1{
+    color: hsl(224, 30%, 27%);
+}
+.section1 p{
+    color: hsl(0, 100%, 67%);
+    font-family: "Hanken Grotesk", sans-serif;
+}
+.section2 p{
+    color: hsl(39, 100%, 56%);
+    font-family: "Hanken Grotesk", sans-serif;
+}
+.section3 p{
+    color: hsl(166, 100%, 37%);
+    font-family: "Hanken Grotesk", sans-serif;
+}
+.section4 p{
+    color: hsl(234, 85%, 45%);
+    font-family: "Hanken Grotesk", sans-serif;
+}
+icon{
+    padding-right: 6px;
+    padding-top: 6px;
+}
+.btn{
+    width: 250px;
+    height: 40px;
+    background:hsl(224, 22%, 57%);
+    border-radius: 20px;
+    margin-top: 13px;
+    color:#fff;
+    font-size: 18px;
+    border: none;
+    margin-left: 10px;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+.btn:hover{
+    background-color:hsl(241, 81%, 54%) ;
+}
+@media (max-width:375px) {
+    body{
+        width: 360px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+        margin: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        justify-content: stretch;
+        
+    }
+    .container{
+    width: 360px;
+    display: grid;
+    justify-content: baseline;
+    margin-left: 0px;
+    margin-right:0px;
+    border-radius: none;
+
+ }
+ .main, 
+ .main1{
+    
+    margin: 0px 0px 0px 0px;
+    box-shadow:0px 3px 15px rgba(113, 115, 119, 0.5);
+
+ }
+ .main{
+    width: 360px;
+    border-radius: none;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px; 
+ }
+ .main1{
+    width: 360px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: none;
+    border-top-right-radius: none; 
+ }
+}
